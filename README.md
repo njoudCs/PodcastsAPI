@@ -20,7 +20,7 @@ The Podcasts is handled by this vapor API. The API supports all primary CRUD ope
 
 
 
-## Endpoints
+## 📍Endpoints
 ### Channel Endpoints
 * Get all Channels
 Returns a list of all Channels.
@@ -110,7 +110,7 @@ DELETE /show/{id}
 
 <img width="1073" alt="Screenshot 1444-08-30 at 3 56 02 PM" src="https://user-images.githubusercontent.com/85634409/226911182-1f01b130-0286-4f77-9dc0-b46d0471d733.png">
 
-## Models
+## 📎Models
 The two models in the API are:
 * podcastChannel
 * Show
