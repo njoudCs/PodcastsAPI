@@ -2,18 +2,21 @@
 The Podcasts is handled by this vapor API. The API supports all primary CRUD operations: create, read, update, and delete.
 
 
-## Installation   
+## 📦Installation   
 
-vapor is available on **Mac**,**Linux**.
+* vapor is available on **Mac**,**Linux**.
 
 ### Mac (To use Vapor on macOS, you will need Swift 5.2 or greater. Swift and all of its dependencies come bundled with Xcode.)
 
-- download frome [here](https://docs.vapor.codes/install/macos/) 
+ download frome [here](https://docs.vapor.codes/install/macos/) 
 
 ### Linux (To use Vapor, you will need Swift 5.2 or greater. This can be installed using the toolchains available on Swift.org)
 
-- download frome [here](https://docs.vapor.codes/install/linux/) 
+ download frome [here](https://docs.vapor.codes/install/linux/) 
 
+* PostgreSQL database
+
+ download frome [here](https://www.postgresql.org/download/) 
 
 
 
@@ -164,13 +167,8 @@ final class podcastChannel:  Model , Content{
 ```
 
 
-## Contribution
-
-You are welcome to fork the repository and send a pull request to this project.
-
-
-## Developers
+## 🌿Developers
 
 #### Njoud Alnajem : www.linkedin.com/in/njoudcs
-####  :
+#### Shorouq Khallaf
 
