@@ -199,7 +199,7 @@ final class podcastChannel:  Model , Content{
 }
 
 ```
-## Tables
+## 🗒️Tables
 
 * PodcastChannel table
 
