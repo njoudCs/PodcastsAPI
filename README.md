@@ -8,6 +8,8 @@ Returns a list of all Channels.
 
 ```
   GET /PodcastChannel
+  
+  <img width="471" alt="Screenshot 1444-08-30 at 1 19 41 PM" src="https://user-images.githubusercontent.com/85634409/226876856-ec39b012-370c-4464-abe0-c87dc62a2b4a.png">
 ```
 * Create a new Channel
 
@@ -27,10 +29,14 @@ DELETE /PodcastChannel/{id}
 
 ### Shows Endpoints
 * Get all Shows
-Returns a list of all packaging options.
+Returns a list of all shows options.
 
 ```
  GET /show
+ 
+ 
+<img width="302" alt="Screenshot 1444-08-30 at 1 34 24 PM" src="https://user-images.githubusercontent.com/85634409/226876976-f9292c12-585a-4131-b848-5e6b9d3fb14c.png">
+
 ```
 * Create a new Show
 
@@ -142,4 +148,10 @@ final class podcastChannel:  Model , Content{
 ## Contribution
 
 You are welcome to fork the repository and send a pull request to this project.
+
+
+## Developers
+
+#### Njoud Alnajem : www.linkedin.com/in/njoudcs
+####  :
 
