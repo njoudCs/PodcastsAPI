@@ -35,11 +35,12 @@ Returns a list of all shows options.
 
 ```
  GET /show
+
+```
  
  
 <img width="302" alt="Screenshot 1444-08-30 at 1 34 24 PM" src="https://user-images.githubusercontent.com/85634409/226876976-f9292c12-585a-4131-b848-5e6b9d3fb14c.png">
 
-```
 * Create a new Show
 
 ```
