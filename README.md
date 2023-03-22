@@ -53,6 +53,7 @@ The two models in the API are:
 * Show
 
 ### podcastChannel Model
+```swift
 
 //
 //  podcastChannel.swift
