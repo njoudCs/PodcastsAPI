@@ -40,7 +40,7 @@ Returns a list of all packaging options.
 * Update a Show
 
 ```
-  PUT /show/{id}
+  PUT /show
 ```
 * Deletes a specific Show by ID
 
@@ -48,91 +48,97 @@ Returns a list of all packaging options.
 DELETE /show/{id}
 ```
 ## Models
-The API has two models: Product and Packaging.
+The two models in the API are:
+* podcastChannel
+* Show
 
-### Product Model
+### podcastChannel Model
 
-```swift
-final class Product: Model, Content {
-    static let schema = "products"
+//
+//  podcastChannel.swift
+//  
+//
+//  Created by Njoud saud Al-Najem on 24/08/1444 AH.
+//
+
+import Fluent
+import Vapor
+
+
+final class podcastChannel:  Model , Content{
+    // Name of the table or collection.
     
+    static let schema = "PodcastChannel"
+
     @ID(key: .id)
     var id: UUID?
-    @Field(key: "name")
-    var name: String
 
-    @Field(key: "description")
-    var description: String
-
-    @Field(key: "price")
-    var price: Double
-
-    @Parent(key: "packaging_id")
-    var packaging: Packaging
     
+    @Field(key: "channel_name")
+    var channel_name: String
+
+    @Children (for:\.$channel_id)
+    var showList:[Show]
+   
+
     init() { }
 
-    init(name: String, description: String, price: Double, packaging: Packaging) {
-           self.name = name
-           self.description = description
-           self.price = price
-           self.$packaging.id = packaging.id!
-       }
+   
+    init(id: UUID? = nil, channel_name: String) {
+        self.id = id
+        self.channel_name = channel_name
+    }
     
+}
+
+
+
+```
+### Show Model
+
+```swift
+//
+//  podcastChannel.swift
+//  
+//
+//  Created by Njoud saud Al-Najem on 24/08/1444 AH.
+//
+
+import Fluent
+import Vapor
+
+
+final class podcastChannel:  Model , Content{
+    // Name of the table or collection.
     
+    static let schema = "PodcastChannel"
+
+    @ID(key: .id)
+    var id: UUID?
+
+    
+    @Field(key: "channel_name")
+    var channel_name: String
+
+    @Children (for:\.$channel_id)
+    var showList:[Show]
+   
+
+    init() { }
+
+   
+    init(id: UUID? = nil, channel_name: String) {
+        self.id = id
+        self.channel_name = channel_name
+    }
     
 }
 
 
 ```
-### Packaging Model
 
-```swift
-final class Packaging: Content, Model  {
-    static let schema = "packaging"
-    
-    @ID(key: .id)
-    var id: UUID?
-    @Field(key: "name")
-    var name: String
-
-    @Field(key: "description")
-    var description: String
-
-    @Field(key: "sustainabilityRating")
-    var sustainabilityRating: Double
-
-    @Children(for: \.$packaging)
-    var pacginng: [Product]
-    
-    init() { }
-    
-    
-  
-        init(id: UUID?, name: String, description: String, sustainabilityRating: Double) {
-            self.id = id
-            self.name = name
-            self.description = description
-            self.sustainabilityRating = sustainabilityRating
-        }
-    
-
-}
-
-```
-## Usage
-To use this API, you will need to have Vapor installed. If you don't have Vapor installed, you can follow the installation guide [Here](https://docs.vapor.codes/install/macos/).
-
-Once you have Vapor installed, you can clone the repository by running the following command in your terminal:
-```
-git clone https://github.com/RoaPro9/SustainableProductsAPI.git
-```
-Next, navigate to the cloned repository and run the following command to build and start the API server:
-```
-vapor run
-```
-This will start the API server, and you can then access the endpoints via a client such as Postman or cURL.
 
 ## Contribution
 
-Feel free to contribute to this project by forking the repository and submitting a pull request.
+You are welcome to fork the repository and send a pull request to this project.
+
