@@ -9,8 +9,10 @@ Returns a list of all Channels.
 ```
   GET /PodcastChannel
   
-  <img width="471" alt="Screenshot 1444-08-30 at 1 19 41 PM" src="https://user-images.githubusercontent.com/85634409/226876856-ec39b012-370c-4464-abe0-c87dc62a2b4a.png">
 ```
+
+  <img width="471" alt="Screenshot 1444-08-30 at 1 19 41 PM" src="https://user-images.githubusercontent.com/85634409/226876856-ec39b012-370c-4464-abe0-c87dc62a2b4a.png">
+  
 * Create a new Channel
 
 ```
