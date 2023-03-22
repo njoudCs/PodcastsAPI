@@ -170,5 +170,6 @@ final class podcastChannel:  Model , Content{
 ## 🌿Developers
 
 #### Njoud Alnajem : www.linkedin.com/in/njoudcs
-#### Shorouq Khallaf
+#### Shorouq Khallaf: @ShorouqMK
+
 
