@@ -1,6 +1,22 @@
 # PodcastsAPI
 The Podcasts is handled by this vapor API. The API supports all primary CRUD operations: create, read, update, and delete.
 
+
+## Installation   
+
+vapor is available on **Mac**,**Linux**.
+
+### Mac (To use Vapor on macOS, you will need Swift 5.2 or greater. Swift and all of its dependencies come bundled with Xcode.)
+
+- download frome [here](https://docs.vapor.codes/install/macos/) 
+
+### Linux (To use Vapor, you will need Swift 5.2 or greater. This can be installed using the toolchains available on Swift.org)
+
+- download frome [here](https://docs.vapor.codes/install/linux/) 
+
+
+
+
 ## Endpoints
 ### Channel Endpoints
 * Get all Channels
