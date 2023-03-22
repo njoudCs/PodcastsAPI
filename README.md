@@ -171,5 +171,7 @@ final class podcastChannel:  Model , Content{
 
 #### Njoud Alnajem : www.linkedin.com/in/njoudcs
 #### Shorouq Khallaf: @ShorouqMK
+### Noura Aljaber : @Nourafj 
+
 
 
