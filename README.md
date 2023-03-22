@@ -163,15 +163,24 @@ final class podcastChannel:  Model , Content{
     
 }
 
-
 ```
+## Tables
+
+* PodcastChannel table
+
+<img width="612" alt="Screenshot 1444-08-30 at 2 37 30 PM" src="https://user-images.githubusercontent.com/85634409/226896402-32331d7d-3103-41a7-ba2d-cc49fe3321c2.png">
+
+* show table 
+
+<img width="1512" alt="Screenshot 1444-08-30 at 2 37 39 PM" src="https://user-images.githubusercontent.com/85634409/226896446-07d6c713-aa78-4165-b7e3-7e496e7d5767.png">
+
 
 
 ## 🌿Developers
 
-#### Njoud Alnajem : www.linkedin.com/in/njoudcs
-#### Shorouq Khallaf: @ShorouqMK
-### Noura Aljaber : @Nourafj 
+#### Njoud Alnajem : [linkedin](www.linkedin.com/in/njoudcs)
+#### Shorouq Khallaf: [linkedin](https://www.linkedin.com/in/shorouq-khallaf-53b84316b)
+### Noura Aljaber : [@Nourafj](https://github.com/nourafj)
 
 
 
